@@ -85,7 +85,7 @@ public class SourceLocator {
                   return ClassSourceType.apk;
                 } else if (path.endsWith(".dex")) {
                   return ClassSourceType.dex;
-                } else if (path.endsWith(".bin")){
+                } else if (path.endsWith(".bin")) {
                   return ClassSourceType.bin;
                 }
                 else {
